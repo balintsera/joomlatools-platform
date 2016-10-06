@@ -17,6 +17,12 @@
       "homepage": "http://www.timble.net"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:balintsera/joomlatools-console.git"
+    }
+  ],
   "require": {
     "php": ">=5.5",
     "ext-mbstring": "*",
@@ -26,7 +32,7 @@
     "joomla/uri": "~1.1",
     "phpmailer/phpmailer": "5.2.9",
     "vlucas/phpdotenv": "^2.1.0",
-    "joomlatools/console": "^1.4.0"
+    "evista/joomlatools/console": "^1.4"
   },
   "suggest": {
     "joomlatools/platform-legacy": "Includes deprecated library classes no longer used in the core"

@@ -4,9 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b6804a54ab103a2aca794aac615ef2b",
-    "content-hash": "2c0f811645915023803c55de7c940673",
+    "hash": "d3a2eb226719f0514ef910c6916f9652",
+    "content-hash": "2320abb9863667a5aa97d30d3dd31c7d",
     "packages": [
+        {
+            "name": "evista/joomlatools/console",
+            "version": "v1.4.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/balintsera/joomlatools-console.git",
+                "reference": "cf850527a9f29fa695d86aea26f3646ee7d26666"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/balintsera/joomlatools-console/zipball/cf850527a9f29fa695d86aea26f3646ee7d26666",
+                "reference": "cf850527a9f29fa695d86aea26f3646ee7d26666",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.7"
+            },
+            "bin": [
+                "bin/joomla"
+            ],
+            "type": "project",
+            "autoload": {
+                "psr-0": {
+                    "Joomlatools\\": "src/"
+                }
+            },
+            "license": [
+                "MPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Joomlatools",
+                    "email": "info@joomlatools.com",
+                    "homepage": "https://www.joomlatools.com"
+                }
+            ],
+            "description": "This command-line script helps to ease the management of Joomla sites in your development environment.",
+            "homepage": "https://github.com/joomlatools/joomlatools-console",
+            "keywords": [
+                "console",
+                "joomla",
+                "tools"
+            ],
+            "support": {
+                "source": "https://github.com/balintsera/joomlatools-console/tree/v1.4.6"
+            },
+            "time": "2016-04-01 09:40:57"
+        },
         {
             "name": "joomla/application",
             "version": "1.5.0",
