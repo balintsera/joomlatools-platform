@@ -8,6 +8,7 @@
 # Joomla #
 /cache
 /log
+/logs
 
 # phpDocumentor Logs #
 phpdoc-*
